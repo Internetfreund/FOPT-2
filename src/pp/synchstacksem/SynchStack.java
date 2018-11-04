@@ -4,7 +4,7 @@ public class SynchStack
 {
     private Object[] stack = new Object[0];
     
-    // es wird das letzte Object im Array ausgelesen, 
+    // es wird das letzte Object im Array ausgelesen,
     // dann wird der Array in einen um 1 kürzen Array kopiert
     // dann wird der neue Array zu dem alten geklont. So die Theorie
     public Object pop()
